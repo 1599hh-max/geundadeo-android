@@ -1,0 +1,20 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.geundadeo.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.geundadeo.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName '1.2'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+    implementation 'com.google.mlkit:text-recognition-korean:16.0.1'
+}
